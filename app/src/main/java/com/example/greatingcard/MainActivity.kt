@@ -39,9 +39,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Box (modifier = Modifier
-        .fillMaxSize()
-        .background(Color.White)){
+    Box (modifier = Modifier.fillMaxSize().background(Color.Cyan)){
         Text(
             text = "Hello $name! How Are You?",
             fontSize = 20.sp,
